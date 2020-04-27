@@ -36,6 +36,8 @@ Calculates the fitness of the chromosome by counting the number of characters wh
 
 
 Initialises the population size=100 and the generation1 and creates the next generation according to given rules in each iteration till the target string is found in the form of fittest chromosome of the population
+
+
 __Rules:__\
 10% of fittest population goes to the next generation\
 From 50% of population, Individuals will mate to produce offspring -calls the mate function
